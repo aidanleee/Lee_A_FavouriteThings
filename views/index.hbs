@@ -1,2 +1,11 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<section id="activities">
+    {{#each activities}}
+        <div id="computers-cont">
+            <img src="/images/{{img}}" alt="activity thumbnail">
+            <br>
+            <h1>{{title}}</h1>
+            <a href="/{{name}}">MORE INFO</a>
+        </div>
+
+    {{/each}}
+</section>
