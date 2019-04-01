@@ -1,5 +1,9 @@
 @import '_vars';
+@import 'modules/_home';
 
+body { 
+    background: url(/images/spirationdark.png) repeat;
+}
 
 header {
     background-color: $blue;

@@ -1,0 +1,26 @@
+.activity-cont {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    img {
+        width: 60%;
+    }
+    h2 {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        color: white;
+    }
+    a {
+        color: $blue;
+        border: 2px solid $blue;
+        padding: 3px;
+    }
+}
+
+.activity-cont a:hover {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    transition: 0.3s;
+}
