@@ -1,11 +1,12 @@
-<section id="activities">
+<section id="activities" class="container-fluid">
+    <div class="row">
     {{#each activities}}
-        <div id="computers-cont">
-            <img src="/images/{{img}}" alt="activity thumbnail">
+        <div class="activity-cont col-4">
+            <img src="/images/{{img}}" alt="{{name}}">
             <br>
-            <h1>{{title}}</h1>
+            <h2>{{title}}</h2>
             <a href="/{{name}}">MORE INFO</a>
         </div>
-
     {{/each}}
+    </div>
 </section>
